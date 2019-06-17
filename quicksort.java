@@ -1,5 +1,3 @@
-package com.java2novice.sorting;
- 
 public class MyQuickSort {
      
     private int array[];
