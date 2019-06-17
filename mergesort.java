@@ -1,5 +1,3 @@
-package com.java2novice.sorting;
- 
 public class MyMergeSort {
      
     private int[] array;
