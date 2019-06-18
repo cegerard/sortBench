@@ -1,6 +1,6 @@
 package sortBench.algorithm ;
 
-public class MyQuickSort implements ISortingAlgorithm {
+public class QuickSort implements ISortingAlgorithm {
      
     private int[] array;
     private int length;
