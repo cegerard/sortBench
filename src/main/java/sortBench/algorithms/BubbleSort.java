@@ -1,3 +1,4 @@
+package sortBench.algorithm;
 // bubble sort method
     public static void bubbleSort(int array[]){
         int n = array.length;
