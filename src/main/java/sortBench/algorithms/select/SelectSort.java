@@ -1,4 +1,4 @@
-package sortBench.algorithm
+package sortBench.algorithm;
 
 public class SelectSort implements ISortingAlgorithm {
 	
