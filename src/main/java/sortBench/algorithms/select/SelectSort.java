@@ -1,9 +1,9 @@
 package sortBench.algorithm
 
-public class SelectSort {
+public class SelectSort implements ISortingAlgorithm {
 	
  	 
-	    public static void doSelectionSort(int[] arr){
+	    private void doSelectionSort(int[] arr){
 	         
 	        for (int i = 0; i < arr.length - 1; i++)
 	        {
