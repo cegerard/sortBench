@@ -1,7 +1,11 @@
 package sortBench.algorithm ;
 
 public class MergeSort implements ISortingAlgorithm {
-     
+    
+	private int[] array ;
+	private int length ;
+	private int[] tempMergArr ;
+	
     public void sort(int inputArr[]) {
         this.array = inputArr;
         this.length = inputArr.length;
