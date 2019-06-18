@@ -1,6 +1,6 @@
 package sortBench.algorithm ;
 
-public class MyMergeSort implements ISortingAlgorithm {
+public class MergeSort implements ISortingAlgorithm {
      
     public void sort(int inputArr[]) {
         this.array = inputArr;
