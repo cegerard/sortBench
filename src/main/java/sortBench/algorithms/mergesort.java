@@ -1,19 +1,6 @@
-public class MyMergeSort {
-     
-    private int[] array;
-    private int[] tempMergArr;
-    private int length;
- 
-    public static void main(String a[]){
-         
-        int[] inputArr = {45,23,11,89,77,98,4,28,65,43};
-        MyMergeSort mms = new MyMergeSort();
-        mms.sort(inputArr);
-        for(int i:inputArr){
-            System.out.print(i);
-            System.out.print(" ");
-        }
-    }
+package sortBench.algorithm ;
+
+public class MyMergeSort implements ISortingAlgorithm {
      
     public void sort(int inputArr[]) {
         this.array = inputArr;
