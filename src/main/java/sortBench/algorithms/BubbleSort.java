@@ -1,6 +1,7 @@
 package sortBench.algorithm;
 // bubble sort method
-    public static void bubbleSort(int array[]){
+public class bubbleSort implements ISortingAlgorithm{
+	public void bubbleSort(int array[]){
         int n = array.length;
         int k;
         for (int m = n; m >= 0; m--) {
@@ -12,3 +13,11 @@ package sortBench.algorithm;
             }
         }
     }
+    public void swapNumbers(int i, int j, int[] array) {
+        int temp;
+        temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+}
+    
