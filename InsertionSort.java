@@ -1,13 +1,6 @@
-public class MyInsertionSort {
- 
-    public static void main(String a[]){
-        int[] arr1 = {10,34,2,56,7,67,88,42};
-        int[] arr2 = doInsertionSort(arr1);
-        for(int i:arr2){
-            System.out.print(i);
-            System.out.print(", ");
-        }
-    }
+package sortBench.algorithm;
+
+public class InsertionSort implements ISortingAlgorithm{ 
      
     public static int[] doInsertionSort(int[] input){
          
@@ -22,6 +15,6 @@ public class MyInsertionSort {
             }
         }
         return input;
-		//
+		
     }
 }
